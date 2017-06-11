@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مدیریت بخش</title>
+
+    <link rel="stylesheet" href="../../Content/Lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Content/Lib/bootstrap-rtl/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="../../Content/Lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../Content/css/default.css">
+
+    <style>
+    body{
+      padding-top: 50px;
+    }
+    </style>
+
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+
+
+      <div class="panel panel-success">
+        <div class="panel-body">
+          <!-- ========================================================= -->
+          <div class="alert alert-warning">
+            <h4 class="text-center"><strong>ویرایش پرسش</strong></h4>
+          </div>
+
+          <hr>
+          <p>
+            <strong>شماره برگزاری : <span>1024</span></strong>
+          </p>
+          <p>
+            <strong>عنوان آزمون : <span>شماره یک کلی</span></strong>
+          </p>
+          <hr>
+          <form>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">پرسش</label>
+              <textarea class="form-control" rows="3" id="exampleInputEmail1"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">گزینه الف</label>
+              <textarea class="form-control" rows="3" id="exampleInputEmail2"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">گزینه ب</label>
+              <textarea class="form-control" rows="3" id="exampleInputEmail3"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">گزینه ج</label>
+              <textarea class="form-control" rows="3" id="exampleInputEmail4"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">گزینه د</label>
+              <textarea class="form-control" rows="3" id="exampleInputEmail5"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">پاسخ صحیح</label>
+              <select class="form-control">
+                <option value="0">انتخاب نمایید</option>
+                <option value="1">گزینه الف</option>
+                <option value="2">گزینه ب</option>
+                <option value="3">گزینه ج</option>
+                <option value="4">گزینه د</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <a href="#" class="btn btn-default">بازگشت</a>
+              <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+            </div>
+          </form>
+          <!-- ========================================================= -->
+        </div>
+    </div>
+  </div>
+
+    <!--  -->
+    <script src="../../Content/Lib/jquery/jquery.min.js"></script>
+    <script src="../../Content/Lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Content/Lib/ckeditor/ckeditor.js"></script>
+
+    <script type="text/javascript">
+      CKEDITOR.replace( 'exampleInputEmail1' );
+      CKEDITOR.replace( 'exampleInputEmail2' );
+      CKEDITOR.replace( 'exampleInputEmail3' );
+      CKEDITOR.replace( 'exampleInputEmail4' );
+      CKEDITOR.replace( 'exampleInputEmail5' );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مدیریت بخش</title>
+
+    <link rel="stylesheet" href="../../Content/Lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Content/Lib/bootstrap-rtl/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="../../Content/Lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../Content/css/default.css">
+
+    <style>
+      body{
+        padding: 10px;
+      }
+      .marg-top{
+        margin-top: 0px;
+      }
+
+    </style>
+
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <!-- Start : Nav Bar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../Index.html">پنل مدیریت</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <p class="navbar-text">حوزه <b>دشتستان</b></p>
+              <li><a href="#">حساب کاربری</a></li>
+              <li><a href="#">خروج <span class="glyphicon glyphicon-log-out"></span></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- End : Nav Bar -->
+
+      <!-- Start : Content -->
+
+      <div class="panel panel-default">
+        <div class="panel-heading ">
+          <h3 class="panel-title">کاربر محترم <b><span>امین صداقتی</span></b> خوش آمدید.</h3>
+        </div>
+        <div class="panel-body">
+          <h3 class="text-center marg-top">لیست کاربران تایید شده حوزه دشتستان</h3>
+
+          <form class="">
+            <label for="inputPassword" class="control-label">جستجو</label>
+            <div class="form-group">
+
+              <input type="text" class="form-control col-sm-8" id="inputPassword" placeholder="جستجو بر اساس شماره ملی">
+              <button type="button" name="" class="btn btn-primary col-sm-3 col-sm-offset-1">بر اساس شماره ملی</button>
+
+            </div>
+            <br>
+            <div class="form-group">
+              <input type="text" class="form-control col-sm-8" id="inputPassword" placeholder="جستجو بر اساس نام و نام خانوادگی">
+              <button type="button" name="" class="btn btn-primary col-sm-3 col-sm-offset-1">بر اساس نام و نام خانوادگی</button>
+            </div>
+
+          </form>
+
+          <br><br><br>
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>شماره</th>
+                <th>نام و نام خانوادگی</th>
+                <th>شماره ملی</th>
+                <th>اعمال</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>123</td>
+                <td>امین صداقتی</td>
+                <td>3510116216</td>
+                <td>
+                  <a href="#" class="a"><span class="glyphicon glyphicon-search"></span></a>
+                  <a href="#" class="a"><span class="glyphicon glyphicon-check"></span></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>123</td>
+                <td>امین صداقتی</td>
+                <td>3510116216</td>
+                <td>
+                  <a href="#" class="a"><span class="glyphicon glyphicon-search"></span></a>
+                  <a href="#" class="a"><span class="glyphicon glyphicon-check"></span></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>123</td>
+                <td>امین صداقتی</td>
+                <td>3510116216</td>
+                <td>
+                  <a href="#" class="a"><span class="glyphicon glyphicon-search"></span></a>
+                  <a href="#" class="a"><span class="glyphicon glyphicon-check"></span></a>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <nav class="text-center" >
+            <ul class="pagination">
+              <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+              <li class=""><a href="#">2 <span class="sr-only">(current)</span></a></li>
+              <li class=""><a href="#">3 <span class="sr-only">(current)</span></a></li>
+              <li class=""><a href="#">4 <span class="sr-only">(current)</span></a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+      <!-- End : Content -->
+
+    </div>
+
+
+    <!--  -->
+    <script src="../../Content/Lib/jquery/jquery.min.js"></script>
+    <script src="../../Content/Lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
